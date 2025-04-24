@@ -1,0 +1,59 @@
+/* General body styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffdd57 !important;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+/* Container styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Custom styles for the reservation form */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom card for displaying reservation details */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

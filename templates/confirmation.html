@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmation - Panter Hotel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-light bg-white shadow-sm mb-4">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">Panter Hotel</a>
+      <a class="btn btn-outline-primary" href="/">Home</a>
+    </div>
+  </nav>
+
+  <div class="container text-center mt-5">
+    <h2 class="mb-4">Reservation Confirmed</h2>
+    <p class="lead">Thank you, {{ name }}! Your reservation for a {{ room_type }} room has been confirmed from {{ check_in }} to {{ check_out }}.</p>
+    <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+  </div>
+</body>
+</html>
+
+
